@@ -169,15 +169,14 @@ class _instaState extends State<insta> {
             children: [
 
 
-              GridView.builder(
+                    GridView.builder(
                   physics: NeverScrollableScrollPhysics(),
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3,
                     mainAxisSpacing: 3,
                     crossAxisSpacing: 3,
                   ),
-                  itemBuilder: (BuildContext a,b)
-                  {
+                  itemBuilder: (BuildContext a,b){
                     return Container(
                       height: 150,width: 150,
                       decoration: BoxDecoration(
@@ -186,36 +185,33 @@ class _instaState extends State<insta> {
                           )
                       ),
                     );
-
-
-
-                  }
-              ),
-              GridView.builder(
-                  physics: NeverScrollableScrollPhysics(),
-                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    }
+                    ),
+                    GridView.builder(
+                    physics: NeverScrollableScrollPhysics(),
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3,
                     mainAxisSpacing: 3,
                     crossAxisSpacing: 3,
-                  ),
-                  itemBuilder: (BuildContext a,b)
-                  {
+                    ),
+                    itemBuilder: (BuildContext a,b)
+                    {
                     return Container(
-                      height: 150,width: 150,
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                              image: AssetImage("image/vijayy.jpeg")
-                          )
-                      ),
+                    height: 150,width: 150,
+                    decoration: BoxDecoration(
+                    image: DecorationImage(
+                    image: AssetImage("image/vijayy.jpeg")
+                    )
+                    ),
                     );
 
 
 
-                  }
-              ),
-              GridView.builder(
-                  physics: NeverScrollableScrollPhysics(),
-                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    }
+                    ),
+                    GridView.builder(
+                    physics: NeverScrollableScrollPhysics(),
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3,
                     mainAxisSpacing: 3,
                     crossAxisSpacing: 3,
@@ -235,8 +231,6 @@ class _instaState extends State<insta> {
 
                   }
               )
-
-
             ],
           ),
 
